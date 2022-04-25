@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "@babel/env"
+    ],
+    "plugins": [
+        "@babel/proposal-class-properties",
+        [
+            "inline-json-import",
+            {}
+        ],
+        ["@babel/transform-runtime", {
+            "regenerator": true
+          }]
+    ],
+    "ignore": [
+        "**/*.spec.js"
+    ]
+}
+

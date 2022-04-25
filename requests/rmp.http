@@ -1,0 +1,2 @@
+GET http://localhost:3000/api/v1/sap/tutilabs/rmp/02.008.008049.05-00
+Content-Type: application/json
